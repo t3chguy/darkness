@@ -699,6 +699,11 @@ svg.octicon.octicon-check {
     background: transparent !important;
 }
 
+// Remove faint background on links such as "Add your reaction"
+button.btn-link > svg {
+    background-color: transparent !important;	
+}
+
 // Fix for the broadcast on front-page
 .octofication .broadcast-icon-mask {
     background-color: transparent !important;
